@@ -3,7 +3,7 @@
    * @author
    */
     //数据库连接
-    $con = new mysqli('localhost','root','pxy123','adbugo');
+    $con = new mysqli(HOSTNAME,DBUSER,DBPWD, DBNAME);
     
     //读取json文件
     $filename = 'areas.json';
